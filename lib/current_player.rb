@@ -8,4 +8,5 @@ turn = 0
 board.each do | position |
   turn += 1
   end
+puts turn
 end
