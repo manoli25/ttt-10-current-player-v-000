@@ -11,6 +11,7 @@ board.each do |position|
     turn += 1
   end
 end
+return turn
 end
 
 
@@ -20,5 +21,5 @@ def current_player(turn)
   else
     player = "X"
   end
-  
+
 end
