@@ -11,4 +11,3 @@ board.each do |position|
   end
 end
 
-def current_player()
