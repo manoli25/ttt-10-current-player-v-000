@@ -11,3 +11,4 @@ board.each do |position|
     turn += 1  
   end
 end
+end
