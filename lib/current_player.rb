@@ -1,4 +1,4 @@
-require_relative '../lib/current_player'
+require_relative "../lib/current_player.rb"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " "]
 
