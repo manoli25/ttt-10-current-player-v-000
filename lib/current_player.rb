@@ -16,9 +16,9 @@ end
 
 def current_player(turn)
   if turn % 2
-    player = "X"
-  else
     player = "O"
+  else
+    player = "X"
   end
   
 end
