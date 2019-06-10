@@ -16,11 +16,3 @@ board.each do | position |
 end
 
 
-  if position % 2 # if its divides evenly it will return 1 or true
-    player = "O"
-  else
-    player = 'X'
-  end
-  turn += 1
-end
-end
