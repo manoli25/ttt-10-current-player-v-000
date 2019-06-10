@@ -1,3 +1,5 @@
+require_relative '../lib/current_player'
+
 board = [" ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
