@@ -8,7 +8,17 @@ turn = 0
 
 board.each do |position|
   if position = "X" || position = "O"
-    turn += 1  
+    turn += 1
   end
 end
+end
+
+
+def current_player(turn)
+  if turn % 2
+    player = "X"
+  else
+    player = "O"
+  end
+  
 end
