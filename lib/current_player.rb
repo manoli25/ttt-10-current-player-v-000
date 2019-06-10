@@ -9,6 +9,6 @@ board.each do |position|
   if position != " "
   turn += 1
   else
-  break
+  
   end
 end
