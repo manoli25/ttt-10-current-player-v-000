@@ -9,5 +9,5 @@ board.each do | position |
   turn += 1
   puts "hello"
   end
-puts turn
+
 end
