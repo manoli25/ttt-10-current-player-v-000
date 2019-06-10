@@ -1,7 +1,7 @@
 require_relative "../lib/current_player.rb"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-turn_count()
+turn_count(board)
 
 def turn_count(board)
 turn = 0
