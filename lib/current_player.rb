@@ -21,5 +21,5 @@ def current_player(turn)
   else
     player = "X"
   end
-
+return player
 end
