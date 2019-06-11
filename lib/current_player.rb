@@ -16,10 +16,10 @@ end
 
 
 def current_player(turn)
-  if turn % 2 == 0
-    player = "O"
-  else
+  if turn.even?
     player = "X"
+  else
+    player = "O"
   end
 return player
 end
