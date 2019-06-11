@@ -15,7 +15,7 @@ return turn
 end
 
 
-def current_player(turn)
+def current_player(board)
   turn = turn_count(board)
   if turn.even?
     player = "X"
