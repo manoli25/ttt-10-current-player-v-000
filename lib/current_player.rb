@@ -20,7 +20,7 @@ def current_player(board)
 
   turn.even? ? player = "X" : player = "O"
 
-  #if turn.even?
+# if turn.even?
 #    player = "X"
 #  else
 #    player = "O"
